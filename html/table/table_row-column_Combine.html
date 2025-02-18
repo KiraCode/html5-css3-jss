@@ -6,11 +6,11 @@
     <title>Rows Columns Merge Table</title>
   </head>
   <body>
-    <table border="1" style="border-collapse: collapse;">
+    <table border="1" style="border-collapse: collapse">
       <!-- 1st Row -->
       <tr>
         <th>Person</th>
-        <th>Interested Sub</th>
+        <th>Interested Subject</th>
         <th>Age</th>
       </tr>
 
@@ -23,14 +23,14 @@
 
       <!-- 3rd Row -->
       <tr>
-        <td>Swaroop</td>
+        <td rowspan="2">Swaroop</td>
         <td>AIML</td>
-        <td>23</td>
+        <td rowspan="2">23</td>
       </tr>
 
       <!-- 4th Row -->
       <tr>
-        <td>Computer Science</td>
+        <td colspan="2">Computer Science</td>
       </tr>
 
       <!-- 5th Row -->
@@ -41,10 +41,10 @@
       </tr>
 
       <!-- 6th Row -->
-       <tr>
-        <td>Avrage Age</td>
-        <td>24</td>
-       </tr>
+      <tr>
+        <td>Average Age</td>
+        <td colspan="2">24</td>
+      </tr>
     </table>
   </body>
 </html>
